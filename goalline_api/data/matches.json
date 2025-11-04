@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "match_arsenal_tottenham_20230924",
+    "competition_id": "comp_english_premier_league",
+    "season_id": "season_2023_24_epl",
+    "date": "2023-09-24T13:00:00Z",
+    "venue": {
+      "name": "Emirates Stadium",
+      "capacity": 60704,
+      "location": {
+        "type": "Point",
+        "coordinates": [-0.108611, 51.555]
+      }
+    },
+    "home_team_id": "team_arsenal",
+    "away_team_id": "team_tottenham",
+    "score": {
+      "fulltime": "2-2",
+      "halftime": "1-1"
+    },
+    "lineups": {
+      "home": [
+        {"player_id": "player_bukayo_saka", "position": "RW"},
+        {"player_id": "player_martin_odegaard", "position": "AM"}
+      ],
+      "away": [
+        {"player_id": "player_son_heung_min", "position": "LW"},
+        {"player_id": "player_james_maddison", "position": "AM"}
+      ]
+    },
+    "events": [
+      {
+        "minute": 26,
+        "type": "goal",
+        "team_id": "team_arsenal",
+        "player_id": "player_bukayo_saka"
+      },
+      {
+        "minute": 42,
+        "type": "goal",
+        "team_id": "team_tottenham",
+        "player_id": "player_son_heung_min"
+      },
+      {
+        "minute": 54,
+        "type": "goal",
+        "team_id": "team_arsenal",
+        "player_id": "player_bukayo_saka",
+        "assist_id": "player_martin_odegaard"
+      },
+      {
+        "minute": 55,
+        "type": "goal",
+        "team_id": "team_tottenham",
+        "player_id": "player_son_heung_min"
+      }
+    ],
+    "stats": {
+      "possession": {"home": 55, "away": 45},
+      "shots": {"home": 13, "away": 10},
+      "shots_on_target": {"home": 6, "away": 5}
+    },
+    "notes": []
+  }
+]

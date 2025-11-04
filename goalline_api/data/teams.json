@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "team_arsenal",
+    "name": "Arsenal",
+    "short_name": "ARS",
+    "country": "England",
+    "venue": {
+      "name": "Emirates Stadium",
+      "capacity": 60704,
+      "location": {
+        "type": "Point",
+        "coordinates": [-0.108611, 51.555]
+      }
+    },
+    "founded": 1886
+  },
+  {
+    "_id": "team_tottenham",
+    "name": "Tottenham Hotspur",
+    "short_name": "TOT",
+    "country": "England",
+    "venue": {
+      "name": "Tottenham Hotspur Stadium",
+      "capacity": 62850,
+      "location": {
+        "type": "Point",
+        "coordinates": [-0.0662, 51.6043]
+      }
+    },
+    "founded": 1882
+  }
+]
