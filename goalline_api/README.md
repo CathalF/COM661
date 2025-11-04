@@ -46,7 +46,13 @@ goalline_api/
 
 ## Dataset
 
-The API is intended to work with data derived from the [OpenFootball](https://github.com/openfootball) datasets. Use `scripts/load_openfootball.py` to transform and import the raw datasets into MongoDB collections.
+The API is intended to work with data derived from the [OpenFootball](https://github.com/openfootball) datasets. Sample, coursework-friendly JSON exports are included under `data/` to let you experiment immediately. Use `scripts/load_openfootball.py` to transform and import the bundled (or your own) datasets into MongoDB collections:
+
+```bash
+python -m goalline_api.scripts.load_openfootball
+```
+
+The script inserts the demo Premier League competition, season, teams, players, and a representative match so the API endpoints return meaningful data out of the box. Replace the JSON files with larger OpenFootball exports when you are ready for the full dataset.
 
 ## Testing
 
